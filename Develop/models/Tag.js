@@ -9,11 +9,11 @@ Tag.init(
     //id
     id: {
       // integer
-      type: DataType.INTEGER,
+      type: DataTypes.INTEGER,
       //Not null
       allowNull: false,
       // Primary key
-      primary: true,
+      primaryKey: true,
       // auto INCREMENT
       autoIncrement: true,
     },
